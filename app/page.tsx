@@ -1,6 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+import RecipeSearch from "./page/page";
 
 export default function Home() {
-  return <div>a</div>;
+  return RecipeSearch();
 }
