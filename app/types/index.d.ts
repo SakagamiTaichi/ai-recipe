@@ -1,5 +1,7 @@
 export interface Ingredient {
-  label: string;
+  id: string;
+  name: string;
+  category: string;
 }
 
 export interface RecipeIngredient {
